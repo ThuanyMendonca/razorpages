@@ -253,3 +253,4 @@ C:\Users\thuanymendonca\source\repos\RazorPagesFilme\RazorPagesFilme\bin\Debug\n
 C:\Users\thuanymendonca\source\repos\RazorPagesFilme\RazorPagesFilme\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\thuanymendonca\source\repos\RazorPagesFilme\RazorPagesFilme\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\thuanymendonca\source\repos\RazorPagesFilme\RazorPagesFilme\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\thuanymendonca\source\repos\RazorPagesFilme\RazorPagesFilme\obj\Debug\net6.0\RazorPagesFilme.sourcelink.json

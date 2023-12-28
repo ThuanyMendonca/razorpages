@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -19,6 +20,9 @@ namespace RazorPagesFilme.Models
         public string Genero { get; set; } = string.Empty;
 
         [DataType(DataType.Currency)]
+        [BindProperty]
+        [RegularExpression(@"^\d+(\.\d{1,2})?$", ErrorMessage = "O campo deve ser um número com até duas casas decimais.")]
+
         [Column(TypeName = "decimal(18,2)")]
         public decimal Preco { get; set; }
 
